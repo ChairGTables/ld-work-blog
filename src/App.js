@@ -45,7 +45,7 @@ function App() {
                 <input type="text" value={formData.title}  onChange={(evt) => {updateField("title", evt.target.value)} }/>
                 <label>Text</label>
                 <textarea value={formData.text} onChange={(evt) => {updateField("text", evt.target.value)}}/>
-                <button onClick={addBlogEntry}  type="button">Submit</button>   
+                <button onClick={addBlogEntry}  type="button">Create Blog Entry</button>   
             </div>
         </div>
     );
