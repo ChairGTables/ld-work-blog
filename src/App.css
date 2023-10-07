@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.blog-entry {
+  border: 1px solid black;
+}
+
+.selected {
+  background: green;
+  color: white;
+}
